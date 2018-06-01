@@ -6,7 +6,7 @@
 [web]
   browser = google-chrome
 [core]
-  editor = nvim
+  editor = vim
   excludesfile = ~/.dotfiles/git/gitignore_global
 [alias]
   a = add
