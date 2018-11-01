@@ -3,18 +3,15 @@
 export PKG=(
   acpi
   catdoc
-  catppt
+  ctags
   curl
   diffpdf
   dunst
-  exuberant-ctags
   feh
   htop
-  img2txt
   lighttpd
   lolcat
   lxappearance
-  ncurses-term
   neofetch
   numlockx
   odt2txt
@@ -24,14 +21,11 @@ export PKG=(
   pandoc-crossref
   ranger
   rofi
-  screenkey
   terminology
   tree
   wget
-  xbacklight
   xcape
   xclip
-  xls2csv
   zeal
 )
 
@@ -45,8 +39,10 @@ export AUR=(
   playerctl
   pokemon-terminal-git
   polybar
-  trello
+  rainbow
+  screenkey
   spotify
+  trello
   watchexec
 )
 

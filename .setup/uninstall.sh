@@ -8,9 +8,9 @@ do
   sudo pacman -Rs "$pkg" --needed --noconfirm
 done
 
-SAVED_DIR=$PWD
+# SAVED_DIR=$PWD
 
-cd ~/.dotfiles
+# cd ~/.dotfiles
 
 dirs=$(find . -maxdepth 1 -mindepth 1 -type d -not -name '.git' -print)
 for dir in $dirs
@@ -19,4 +19,4 @@ do
   sh "$dir"/uninstall.sh
 done
 
-cd "$SAVED_DIR"
+# cd "$SAVED_DIR"
