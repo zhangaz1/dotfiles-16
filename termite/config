@@ -17,70 +17,51 @@ cursor_shape = block
 browser = google-chrome-stable
 
 [colors]
-# hard contrast: background = #1d2021
-background = #222D31
-# soft contrast: background = #32302f
-foreground = #d8d8d8
-foreground_bold = #ebdbb2
+# Base16 Material
+# Author: Nate Peterson
 
-# dark0 + gray
-color0 = #222D31
-color8 = #928374
+foreground          = #EEFFFF
+foreground_bold     = #EEFFFF
+cursor              = #EEFFFF
+cursor_foreground   = #263238
+background          = rgba(38, 50, 56)
 
-# neutral_red + bright_red
-color1 = #ab4642
-color9 = #fb4934
+# 16 color space
 
-# neutral_green + bright_green
-color2 = #7E807E
-color10 = #b8bb26
+# Black, Gray, Silver, White
+color0  = #263238
+color8  = #546E7A
+color7  = #EEFFFF
+color15 = #FFFFFF
 
-# neutral_yellow + bright_yellow
-color3 = #f7ca88
-color11 = #fabd2f
+# Red
+color1  = #F07178
+color9  = #F07178
 
-# neutral_blue + bright_blue
-color4 = #7cafc2
-color12 = #7cafc2
+# Green
+color2  = #C3E88D
+color10 = #C3E88D
 
-# neutral_purple + bright_purple
-color5 = #ba8baf
-color13 = #d3869b
+# Yellow
+color3  = #FFCB6B
+color11 = #FFCB6B
 
-# neutral_aqua + faded_aqua
-color6 = #1ABB9B
-color14 = #8ec07c
+# Blue
+color4  = #82AAFF
+color12 = #82AAFF
 
-# light4 + light1
-color7 = #d8d8d8
-color15 = #f8f8f8
+# Purple
+color5  = #C792EA
+color13 = #C792EA
 
-# vim: ft=dosini cms=#%s
+# Teal
+color6  = #89DDFF
+color14 = #89DDFF
 
-#[colors]
-#foreground = #839496
-#foreground_bold = #eee8d5
-#foreground_dim = #888888
-#background = #002b36
-#cursor = #93a1a1
-
-# if unset, will reverse foreground and background
-#highlight = #839496
-
-# colors from color0 to color254 can be set
-#color0 = #073642
-#color1 = #dc322f
-#color2 = #859900
-#color3 = #b58900
-#color4 = #268bd2
-#color5 = #d33682
-#color6 = #2aa198
-#color7 = #eee8d5
-#color8 = #002b36
-#color9 = #cb4b16
-#color10 = #586e75
-#color11 = #657b83
-#color12 = #839496
-#color13 = #6c71c4
-#color14 = #93a1a1
-#color15 = #fdf6e3
+# Extra colors
+color16 = #F78C6C
+color17 = #FF5370
+color18 = #2E3C43
+color19 = #314549
+color20 = #B2CCD6
+color21 = #EEFFFF
