@@ -32,7 +32,9 @@ zplug "zsh-users/zsh-syntax-highlighting"
 
 # Themes List
 
-zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
+# zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
+zplug "mafredri/zsh-async", from:github
+zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
 # -----------------------------------------------------------------------------
 
