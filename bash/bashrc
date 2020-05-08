@@ -1,0 +1,13 @@
+export DOTFILES="$HOME/.dotfiles"
+
+export PATH="$PATH:$HOME/.local/bin"
+
+. $DOTFILES/bash/defaults.bash
+. $DOTFILES/bash/theme.bash
+. $DOTFILES/bash/aliases.bash
+
+. $DOTFILES/asdf/asdf.init
+. $DOTFILES/tmux/tmux.init
+. $DOTFILES/system/direnv.init
+. $DOTFILES/system/fzf.init
+

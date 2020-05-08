@@ -5,9 +5,6 @@
 # shellcheck source=helpers.sh
 . ../helpers.sh
 
-echo_info "Installing Git LFS..."
-_install git-lfs
-
 echo_info "Symlink ~/.gitconfig"
 ln -sfT "$HOME/.dotfiles/git/gitconfig" "$HOME/.gitconfig"
 

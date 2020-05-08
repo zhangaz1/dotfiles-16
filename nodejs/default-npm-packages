@@ -1,6 +1,4 @@
-yarn
-np
 npm-run-all
 eslint
 prettier
-@bitwarden/cli
+yarn

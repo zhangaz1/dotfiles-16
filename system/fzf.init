@@ -1,10 +1,10 @@
 # vim: ft=zsh
 
-export FZF_DEFAULT_COMMAND="fd -t f ."
-export FZF_CTRL_T_COMMAND="fd ."
-export FZF_ALT_C_COMMAND="fd -t d . $HOME"
+# export FZF_DEFAULT_COMMAND="fd -t f ."
+# export FZF_CTRL_T_COMMAND="fd ."
+# export FZF_ALT_C_COMMAND="fd -t d . $HOME"
 
 export FZF_DEFAULT_OPTS="--height 40% --reverse --inline-info"
 
- [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
