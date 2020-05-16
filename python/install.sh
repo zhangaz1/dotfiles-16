@@ -1,11 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# shellcheck source=distro.sh
-. ../distro.sh
 # shellcheck source=helpers.sh
 . ../helpers.sh
 
-echo "Symling .default-python-packages..."
+echo_info "[symlink]" "~/.default-python-packages"
 ln -sfT ~/.dotfiles/python/default-python-packages ~/.default-python-packages
 
-echo_done "Python configuration!"
+echo_done "python configuration!"

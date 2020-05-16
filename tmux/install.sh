@@ -1,16 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# shellcheck source=distro.sh
-. ../distro.sh
 # shellcheck source=helpers.sh
 . ../helpers.sh
 
-echo_info "Installing Tmux..."
 _install tmux
 
+echo_info "[git]" "Clonning Tmux plugins..."
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-echo_info "Symling .tmux.conf..."
+echo_info "[symlink]" "~/.tmux.conf"
 ln -sfT ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
 
-echo_done "Tmux configuration!"
+echo_done "tmux configuration!"

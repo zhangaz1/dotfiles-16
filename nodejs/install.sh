@@ -1,7 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# shellcheck source=distro.sh
-. ../distro.sh
 # shellcheck source=helpers.sh
 . ../helpers.sh
 
@@ -11,5 +9,5 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 echo "Symling .default-npm-packages..."
 ln -sfT ~/.dotfiles/nodejs/default-npm-packages ~/.default-npm-packages
 
-echo_done "NodeJS configuration!"
+echo_done "nodejs configuration!"
 

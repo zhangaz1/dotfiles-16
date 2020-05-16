@@ -11,3 +11,5 @@ export PATH="$PATH:$HOME/.local/bin"
 . $DOTFILES/system/direnv.init
 . $DOTFILES/system/fzf.init
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
